@@ -306,12 +306,12 @@ const ContactForm = () => {
       {/* Status Messages */}
       {submitStatus === "success" && (
         <div className="text-green-600 text-center font-medium">
-          ✅ Message sent successfully! I'll get back to you soon.
+          Message sent successfully! I'll get back to you soon.
         </div>
       )}
       {submitStatus === "error" && (
         <div className="text-red-600 text-center font-medium">
-          ❌ Failed to send message. Please try again or email me directly.
+          Failed to send message. Please try again or email me directly.
         </div>
       )}
 
@@ -554,7 +554,7 @@ export default function Portfolio() {
               <h3 className="text-xl font-bold text-blue-800 mb-4">Codeforces</h3>
               <p className="text-blue-600 mb-6 text-sm">Algorithmic contests & problem solving</p>
               <motion.a
-                href="https://codeforces.com/profile/adityaravi"
+                href="https://codeforces.com/profile/adityar_101"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
@@ -579,7 +579,7 @@ export default function Portfolio() {
               <h3 className="text-xl font-bold text-green-800 mb-4">LeetCode</h3>
               <p className="text-green-600 mb-6 text-sm">Data structures & algorithm practice</p>
               <motion.a
-                href="https://leetcode.com/adityaravi"
+                href="https://leetcode.com/u/adityar_101/"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
@@ -633,7 +633,7 @@ export default function Portfolio() {
             className="text-xl text-blue-700 mb-12 leading-relaxed"
           >
             Interested in my experience and qualifications? Download my complete resume to learn more about my journey,
-            projects, and achievements in AI & Data Science.
+            projects, and achievements in AI/ML & Data Science.
           </motion.p>
 
           <motion.div
@@ -693,11 +693,11 @@ export default function Portfolio() {
                     className="flex items-center space-x-4 text-blue-700 hover:text-green-600 transition-colors"
                   >
                     <Mail className="w-6 h-6" />
-                    <span className="font-medium">aditya@example.com</span>
+                    <span className="font-medium">adiravi1104@gmail.com</span>
                   </motion.a>
 
                   <motion.a
-                    href="https://linkedin.com/in/adityaravi"
+                    href="https://www.linkedin.com/in/aditya-ravi-1447b52b4/"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.05, x: 10 }}
@@ -708,7 +708,7 @@ export default function Portfolio() {
                   </motion.a>
 
                   <motion.a
-                    href="https://github.com/adityaravi"
+                    href="https://github.com/aditya-ravi11"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.05, x: 10 }}
@@ -768,7 +768,7 @@ export default function Portfolio() {
             </motion.a>
           </motion.div>
 
-          <p className="text-blue-700 font-medium">© 2024 Aditya Ravi. Crafted with passion and creativity.</p>
+          <p className="text-blue-700 font-medium">© 2025 Aditya Ravi. Crafted with passion and creativity.</p>
         </div>
       </footer>
     </div>
